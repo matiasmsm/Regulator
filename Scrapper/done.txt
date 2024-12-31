@@ -1,0 +1,19 @@
+Asia:
+    China
+    Japan
+    Turkey
+
+Europe:
+    EU
+
+South America:
+    Chile
+    Brazil: Some without summary
+    Colombia: Without summary
+
+North America:
+
+
+Oceania:
+
+Africa:

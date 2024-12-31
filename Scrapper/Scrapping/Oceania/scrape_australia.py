@@ -1,0 +1,2 @@
+"https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results?page=1&drt=2&drv=7&drvH=7&pnu=47&pnuH=47&f=26%2f07%2f2022&to=24%2f12%2f2024&ps=10&ito=1&q=&bs=1&pbh=1&bhor=1&pmb=1&g=1&st=1&sr=1"
+"https://parlinfo.aph.gov.au/parlInfo/feeds/rss.w3p;adv=yes;orderBy=date-eFirst;page=0;query=Date%3AthisYear%20Dataset%3Abillsdgs;resCount=100"
