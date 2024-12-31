@@ -113,14 +113,12 @@ def get_articles():
             matches = list(re.finditer(titulo_pattern, text))
             #print(text)
             print("\n\n")
-            print(f'Page Nº{page_num}')
-            print(matches)
-            print(len(matches))
             if len(matches) > 0:
-                for titulo_match in matches:
+                for i, titulo_match in enumerate(matches):
                     print(titulo_match)
                     # Get the start position of the match
                     match_start = titulo_match.start()
+                    match_end = titulo_match.end()
                     
                     # Get the portion of the text before the match
                     text_before_match = text[:match_start]
@@ -132,16 +130,68 @@ def get_articles():
                     if lines_before and lines_before[-1].strip() == "":
                         # Proceed only if the line before is empty
                         print(current_titulo)
-                        last_titulo = current_titulo
                         if current_libro and titulo_match.group(0) != "TITULO PRELIMINAR":
                             if current_titulo not in content_structure[current_libro]:
                                 content_structure[current_libro][current_titulo] = {
                                     "articles": [],
                                     "text": ""
                                 }
+                            # Determine the relevant portion of text for articles
+                            if i + 1 < len(matches):  # If there's a next match
+                                next_start = matches[i + 1].start()
+                                articles_text = text[match_end:next_start]
+                                articles_text_before = text[:match_start]
+                                if last_titulo != '':
+                                    before_articles = re.findall(articles_pattern, articles_text_before)
+                                    if before_articles:
+                                        # Get the position of the first article match in the text
+                                        first_article_start = articles_text_before.find(before_articles[0][0])
+                                        # Extract any text before the first article
+                                        pre_article_text = text[:first_article_start].strip()
+                                        # Append pre-article text to the last article from the previous page
+                                        if pre_article_text and len(content_structure[current_libro][last_titulo]["articles"]) > 0:
+                                            content_structure[current_libro][last_titulo]["articles"][-1]["article_text"] += " " + pre_article_text.replace("\n", " ")
+                                        
+                                        # ----------------------------------------------------
+                                        
+                                        # Add articles of the current page
+                                        for number, content in before_articles:
+                                            if content.strip() == "Derogado":
+                                                continue
+                                            content_structure[current_libro][last_titulo]["articles"].append({
+                                                "page": page_num + 1,
+                                                "article_number": number,
+                                                "article_text": content.strip().replace("\n", " ")
+                                            })
+                            else:  # For the last match, take until the end of the text
+                                articles_text = text[match_end:]
+                                articles_text_before = text[:match_start]
+                                if last_titulo != '':
+                                    before_articles = re.findall(articles_pattern, articles_text_before)
+                                    if before_articles:
+                                        # Get the position of the first article match in the text
+                                        first_article_start = articles_text_before.find(before_articles[0][0])
+                                        # Extract any text before the first article
+                                        pre_article_text = text[:first_article_start].strip()
+                                        # Append pre-article text to the last article from the previous page
+                                        if pre_article_text and len(content_structure[current_libro][last_titulo]["articles"]) > 0:
+                                            content_structure[current_libro][last_titulo]["articles"][-1]["article_text"] += " " + pre_article_text.replace("\n", " ")
+                                        
+                                        # ----------------------------------------------------
+                                        
+                                        # Add articles of the current page
+                                        for number, content in before_articles:
+                                            if content.strip() == "Derogado":
+                                                continue
+                                            content_structure[current_libro][last_titulo]["articles"].append({
+                                                "page": page_num + 1,
+                                                "article_number": number,
+                                                "article_text": content.strip().replace("\n", " ")
+                                            })
+                            last_titulo = current_titulo
                             
-                            # Extract articles of the current page
-                            articles = re.findall(articles_pattern, text)
+                            # Extract articles from the relevant portion of text
+                            articles = re.findall(articles_pattern, articles_text)
                     
                             if articles:
                                 
@@ -264,7 +314,6 @@ def get_articles():
                     # Extract any text before the first article
                     pre_article_text = text[:first_article_start].strip()
                     # Append pre-article text to the last article from the previous page
-                    print(f'libro: {current_libro}, titulo: {current_titulo}, {list(matches)}')
                     if pre_article_text and len(content_structure[current_libro][current_titulo]["articles"]) > 0:
                         content_structure[current_libro][current_titulo]["articles"][-1]["article_text"] += " " + pre_article_text.replace("\n", " ")
                     

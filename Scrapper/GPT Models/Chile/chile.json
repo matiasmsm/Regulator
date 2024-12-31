@@ -364,16 +364,6 @@
             "articles": [
                 {
                     "page": 10,
-                    "article_number": "52",
-                    "article_text": "La derogación de las leyes podrá ser  expresa o tácita.      Es expresa, cuando la nueva ley dice expresamente  que deroga la antigua.      Es tácita, cuando la nueva ley contiene  disposiciones que no pueden conciliarse con las de la  ley anterior.      La derogación de una ley puede ser total o parcial."
-                },
-                {
-                    "page": 10,
-                    "article_number": "53",
-                    "article_text": "La derogación tácita deja vigente en las  leyes anteriores, aunque versen sobre la misma materia,  todo aquello que no pugna con las disposiciones de la  nueva ley.      LIBRO PRIMERO      DE LAS PERSONAS      Título I      DE LAS PERSONAS, EN CUANTO A SU NOMBRE, NACIONALIDAD Y DOMICILIO                                                       Ley 21334"
-                },
-                {
-                    "page": 10,
                     "article_number": "1",
                     "article_text": "N° 1                                                                 D.O. 14.05.2021      § 1. División de las personas"
                 },
@@ -505,13 +495,8 @@
                 {
                     "page": 13,
                     "article_number": "72",
-                    "article_text": "El que vive bajo patria potestad sigue el"
-                }
-            ],
-            "text": "DE LAS PERSONAS, EN CUANTO A SU NOMBRE, NACIONALIDAD Y\nDOMICILIO                                                       Ley 21334"
-        },
-        "Título II": {
-            "articles": [
+                    "article_text": "El que vive bajo patria potestad sigue el DFL"
+                },
                 {
                     "page": 14,
                     "article_number": "1",
@@ -525,8 +510,13 @@
                 {
                     "page": 14,
                     "article_number": "73",
-                    "article_text": "El domicilio de una persona será también          D.O. 10.12.2021 el de sus criados y dependientes que residan en la misma  casa que ella; sin perjuicio de lo dispuesto en los dos  artículos precedentes.      Título II      DEL PRINCIPIO Y FIN DE LA EXISTENCIA      DE LAS PERSONAS      DE LAS PERSONAS"
-                },
+                    "article_text": "El domicilio de una persona será también          D.O. 10.12.2021 el de sus criados y dependientes que residan en la misma  casa que ella; sin perjuicio de lo dispuesto en los dos  artículos precedentes."
+                }
+            ],
+            "text": "DE LAS PERSONAS, EN CUANTO A SU NOMBRE, NACIONALIDAD Y\nDOMICILIO                                                       Ley 21334"
+        },
+        "Título II": {
+            "articles": [
                 {
                     "page": 14,
                     "article_number": "74",
@@ -655,13 +645,8 @@
                 {
                     "page": 18,
                     "article_number": "94",
-                    "article_text": "En la rescisión del decreto de posesión  definitiva se observarán las reglas que siguen:"
-                }
-            ],
-            "text": "DEL PRINCIPIO Y FIN DE LA EXISTENCIA\n     DE LAS PERSONAS\n     DE LAS PERSONAS"
-        },
-        "Título III": {
-            "articles": [
+                    "article_text": "En la rescisión del decreto de posesión  definitiva se observarán las reglas que siguen: DFL 1, JUSTICIA ("
+                },
                 {
                     "page": 19,
                     "article_number": "2",
@@ -680,12 +665,12 @@
                 {
                     "page": 19,
                     "article_number": "2",
-                    "article_text": "b)                                                                 D.O. 08.02.2012      Título III      DE LOS ESPONSALES"
+                    "article_text": "b)                                                                 D.O. 08.02.2012"
                 }
             ],
-            "text": "DE LOS ESPONSALES"
+            "text": "DEL PRINCIPIO Y FIN DE LA EXISTENCIA\n     DE LAS PERSONAS\n     DE LAS PERSONAS"
         },
-        "Título IV": {
+        "Título III": {
             "articles": [
                 {
                     "page": 20,
@@ -705,8 +690,13 @@
                 {
                     "page": 20,
                     "article_number": "101",
-                    "article_text": "Tampoco se opone lo dicho a que se admita  la prueba del contrato de esponsales como circunstancia  agravante del crimen de seducción.      Título IV      DEL MATRIMONIO"
-                },
+                    "article_text": "Tampoco se opone lo dicho a que se admita  la prueba del contrato de esponsales como circunstancia  agravante del crimen de seducción."
+                }
+            ],
+            "text": ""
+        },
+        "Título IV": {
+            "articles": [
                 {
                     "page": 20,
                     "article_number": "102",
@@ -865,13 +855,8 @@
                 {
                     "page": 21,
                     "article_number": "119",
-                    "article_text": "Derogado.                                        L. de Matrimonio"
-                }
-            ],
-            "text": "DEL MATRIMONIO"
-        },
-        "Título V": {
-            "articles": [
+                    "article_text": "Derogado.                                        L. de Matrimonio DFL 1, JUSTICIA (2000) Biblioteca del Congreso Nacional de Chile - www.leychile.cl - documento generado el 28-Dic-2024 página 22 de 527                                                                 Civil, de 1884      Art."
+                },
                 {
                     "page": 22,
                     "article_number": "120",
@@ -890,8 +875,13 @@
                 {
                     "page": 22,
                     "article_number": "123",
-                    "article_text": "Derogado.                                        D.O. 17.05.2004                                                                 L. de Matrimonio                                                                 Civil, de 1884      Título V      DE LAS SEGUNDAS NUPCIAS"
-                },
+                    "article_text": "Derogado.                                        D.O. 17.05.2004                                                                 L. de Matrimonio                                                                 Civil, de 1884"
+                }
+            ],
+            "text": "DEL MATRIMONIO"
+        },
+        "Título V": {
+            "articles": [
                 {
                     "page": 22,
                     "article_number": "124",
@@ -995,13 +985,8 @@
                 {
                     "page": 23,
                     "article_number": "1",
-                    "article_text": "º, Nº 7 de ellos le asista razones graves para no hacerlo."
-                }
-            ],
-            "text": "DE LAS SEGUNDAS NUPCIAS"
-        },
-        "Título VI": {
-            "articles": [
+                    "article_text": "º, Nº 7 de ellos le asista razones graves para no hacerlo. DFL 1, JUSTICIA (2000) Biblioteca del Congreso Nacional de Chile - www.leychile.cl - documento generado el 28-Dic-2024 página 23 de 527 anulado su matrimonio por cuya negligencia hubiere              Art. TERCERO Nº 5 dejado de hacerse en tiempo oportuno el inventario              D.O. 17.05.2004 prevenido en el artículo 124, perderá el derecho de  suceder como legitimario o como heredero  abintestato al hijo cuyos bienes ha administrado.       Art."
+                },
                 {
                     "page": 23,
                     "article_number": "128",
@@ -1035,8 +1020,13 @@
                 {
                     "page": 23,
                     "article_number": "1",
-                    "article_text": ", N° 1                                                                 D.O. 11.09.2020      Título VI      OBLIGACIONES Y DERECHOS ENTRE LOS CONYUGES      § 1. Reglas generales"
-                },
+                    "article_text": ", N° 1                                                                 D.O. 11.09.2020"
+                }
+            ],
+            "text": "DE LAS SEGUNDAS NUPCIAS"
+        },
+        "Título VI": {
+            "articles": [
                 {
                     "page": 23,
                     "article_number": "131",
@@ -1460,13 +1450,8 @@
                 {
                     "page": 32,
                     "article_number": "4",
-                    "article_text": "º"
-                }
-            ],
-            "text": "OBLIGACIONES Y DERECHOS ENTRE LOS CONYUGES\n     § 1. Reglas generales"
-        },
-        "Título VII": {
-            "articles": [
+                    "article_text": "º DFL 1, JUSTICIA (2000) Biblioteca del Congreso Nacional de Chile - www.leychile.cl - documento generado el 28-Dic-2024 página 33 de 527      Art."
+                },
                 {
                     "page": 33,
                     "article_number": "177",
@@ -1480,8 +1465,13 @@
                 {
                     "page": 33,
                     "article_number": "178",
-                    "article_text": "A la separación judicial, se aplicará  lo dispuesto en los artículos 160 y 165.                        LEY 19947                                                                 Art. TERCERO Nº 19                                                                 D.O. 17.05.2004      Título VII      DE LA FILIACIÓN      § 1. Reglas generales"
-                },
+                    "article_text": "A la separación judicial, se aplicará  lo dispuesto en los artículos 160 y 165.                        LEY 19947                                                                 Art. TERCERO Nº 19                                                                 D.O. 17.05.2004"
+                }
+            ],
+            "text": "OBLIGACIONES Y DERECHOS ENTRE LOS CONYUGES\n     § 1. Reglas generales"
+        },
+        "Título VII": {
+            "articles": [
                 {
                     "page": 33,
                     "article_number": "179",
